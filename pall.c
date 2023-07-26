@@ -42,17 +42,17 @@ void _push(stack_t **head, unsigned int index)
 		{ fprintf(stderr, "L%d: usage: push integer\n", index);
 			fclose(cat.file);
 			free(cat.content);
-			free_stack(*head);
+			_free(*head);
 			exit(EXIT_FAILURE); }}
 	else
 	{ fprintf(stderr, "L%d: usage: push integer\n", index);
 		fclose(cat.file);
 		free(cat.content);
-		free_stack(*head);
+		_free(*head);
 		exit(EXIT_FAILURE); }
 	n = atoi(cat.arg);
 	if (cat.lifi == 0)
-		addnode(head, n);
+		add_node(head, n);
 	else
-		addqueue(head, n);
+		add_queue(head, n);
 }
