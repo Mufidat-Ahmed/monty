@@ -5,10 +5,10 @@
  * @head: first element in the queue
  * @index: line number of the queue
  */
-void _queue(stack_t **head, unsigned int counter)
+void _queue(stack_t **head, unsigned int index)
 {
 	(void)head;
-	(void)counter;
+	(void)index;
 	cat.lifi = 1;
 }
 /**

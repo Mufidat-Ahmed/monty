@@ -1,5 +1,4 @@
 #include "monty.h"
-
 cat_t cat = {NULL, NULL, NULL, 0};
 
 /**

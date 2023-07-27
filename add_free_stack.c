@@ -2,7 +2,7 @@
 void _free(stack_t *head);
 
 /**
- * addnode - adds nodes to the top of the stack
+ * add_node - adds nodes to the top of the stack
  * @head: first node in the stack
  * @n: new nodes to be added
  */
@@ -25,7 +25,7 @@ void add_node(stack_t **head, int n)
 }
 
 /**
- * free_stack - fres the stack
+ * _free - fres the stack
  * @head: first node in the stack
  */
 void _free(stack_t *head)

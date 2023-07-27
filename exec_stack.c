@@ -6,6 +6,7 @@
  * @stack: linked list to be used
  * @counter: integer to be used
  * @file: points to the monty file
+ * Return: 0 or 1
  */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
