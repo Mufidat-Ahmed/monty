@@ -11,3 +11,14 @@ void _queue(stack_t **head, unsigned int counter)
 	(void)counter;
 	cat.lifi = 1;
 }
+/**
+ * _stack - prints
+ * @head: first element in the stack
+ * @index: line number
+ */
+void _stack(stack_t **head, unsigned int index)
+{
+	(void)head;
+	(void)index;
+	cat.lifi = 0;
+}
